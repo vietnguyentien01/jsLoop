@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card mx-auto my-5" style="width: 18rem;">
+            <div class="card-header text-white bg-dark text-center">
+                Tính tổng S(n) = x + x^2 + x^3 +
+                … + x^n
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="txtNum1" placeholder="Nhập x số 1">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="txtNum2" placeholder="Nhập x số 2">
+                    </div>
+                    <button type="button" class="btn btn-danger" id="btnCalc">Tính tổng</button>
+                </form>
+                <p id="result"></p>
+            </div>
+        </div>
+
+        <div class="card mx-auto my-5" style="width: 18rem;">
+            <div class="card-header text-white bg-dark text-center">
+                Nhập vào n. Tính giai thừa 1*2*...n
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="txtNum3" placeholder="Nhập n">
+                    </div>
+                    <button type="button" class="btn btn-danger" id="btnCalc2">Tính giai thừa</button>
+                </form>
+                <p id="result2"></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="changeDiv">Div 1</div>
+            <div class="changeDiv">Div 2</div>
+            <div class="changeDiv">Div 3</div>
+            <div class="changeDiv">Div 4</div>
+            <div class="changeDiv">Div 5</div>
+            <div class="changeDiv">Div 6</div>
+            <div class="changeDiv">Div 7</div>
+            <div class="changeDiv">Div 8</div>
+            <div class="changeDiv">Div 9</div>
+            <div class="changeDiv">Div 10</div>
+            <br>
+            <button type="button" class="btn btn-danger" id="btnCalc3">Tính giai thừa</button>
+        </div>
+
+        <div class="card mx-auto my-5" style="width: 18rem;">
+            <div class="card-header text-white bg-dark text-center">
+                In
+                các số nguyên tố từ 1 tới giá trị của ô input
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="txtNum4" placeholder="Nhập số">
+                    </div>
+                    <button type="button" class="btn btn-danger" id="btnCalc4">In số</button>
+                </form>
+                <p id="result3"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 4 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
